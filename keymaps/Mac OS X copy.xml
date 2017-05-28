@@ -5,6 +5,10 @@
     <keyboard-shortcut first-keystroke="meta y" />
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
     <keyboard-shortcut first-keystroke="meta right" />
@@ -15,10 +19,8 @@
     <keyboard-shortcut first-keystroke="meta left" />
     <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
-  <action id="EditorMoveDownAndScroll">
-    <keyboard-shortcut first-keystroke="ctrl n" />
-  </action>
-  <action id="EditorMoveUpAndScroll">
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="Generate">
